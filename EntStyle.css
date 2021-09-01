@@ -1,0 +1,280 @@
+﻿
+#app-container
+{
+	margin: 0;
+	min-height: 700px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#app-container
+{
+	background-color: #e9edf0;
+}
+#app-header
+{
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	z-index: 10;
+}
+.app-right-header
+{
+	background: #fff none repeat scroll 0 0;
+	height: 105px;
+	padding: 4px;
+	line-height: 65px;
+	position: relative;
+	z-index: 101;
+}
+.content-title
+{
+	background-color: #099db1;
+	height: auto;
+	padding: 10px 20px;
+}
+.content-title .main-title
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+}
+.margin-bottom-50
+{
+	background: rgba(0, 0, 0, 0) url("../images/texture.png") repeat scroll 0 0;
+	margin-bottom: 30px;
+}
+.padding-20
+{
+	padding: 20px 20px 0;
+}
+.logo
+{
+	background: rgba(0, 0, 0, 0) url("../images/logo_n.png") no-repeat scroll center center;
+	float: left;
+	height: 100px;
+	margin: 0 0 5px 15px;
+	width: 157px;
+}
+.name
+{
+	background: rgba(0, 0, 0, 0) url("../images/name.png") no-repeat scroll center center;
+	float: left;
+	height: 71px;
+	margin: 12px 0 5px;
+	width: 500px;
+}
+.right_logo
+{
+	background: rgba(0, 0, 0, 0) url("../images/logo1.png") no-repeat scroll center center;
+	float: right;
+	height: 99px;
+	margin: 0 15px;
+	width: 87px;
+}
+.app-right-header > ul
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.right-navbar
+{
+	float: right;
+	padding-right: 7px;
+}
+ol, ul
+{
+	list-style: outside none none;
+}
+.footer
+{
+	background-color: #099db1;
+	bottom: 0;
+	font-size: 14px;
+	padding: 7px;
+	position: fixed;
+	width: 100%;
+	color: #fff;
+}
+
+.titelFxd
+{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	left: 0;
+	margin: 0;
+	padding: 10px 40px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 99;
+}
+.ui-progressbar
+{
+	position: relative;
+}
+.progress-label
+{
+	position: absolute;
+	left: 50%;
+	top: 4px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+}
+#divloder
+{
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.3; /* also -moz-opacity, etc. */
+	z-index: 100;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: -75px; /* -1 * image width / 2 */
+	margin-top: -75px; /* -1 * image height / 2 */
+	margin-bottom: -75px;
+	margin-right: -75px;
+}
+.btn
+{
+	border-radius: 0;
+}
+.content-title .btn
+{
+	margin-top: -3px;
+}
+.panel
+{
+	border-radius: 0;
+}
+
+.panel-heading
+{
+	border-radius: 0;
+	font-size: 16px;
+}
+blockquote
+{
+	border-left: 5px solid #eee;
+	font-size: 14px;
+	margin: 0 0 20px;
+	padding: 0px 20px;
+	font-weight: 600;
+}
+label
+{
+	font-size: 15px;
+}
+fieldset
+{
+	border: 1px solid silver !important;
+	margin: 0 2px !important;
+	padding: 0.35em 1.5em 0.75em !important;
+}
+legend
+{
+	border: 0;
+	color: #333;
+	display: block;
+	font-size: 21px;
+	line-height: inherit;
+	margin-bottom: 5px;
+	padding: 0 15px;
+	width: auto;
+}
+#chkQualification td input[type="checkbox"], #chkPref td input[type="checkbox"]
+{
+	line-height: normal;
+	margin: 4px 8px 0;
+	vertical-align: top;
+}
+#chkQualification td label
+{
+	max-width: 95%;
+}
+
+.form-control
+{
+	padding: 4px 2px;
+	border-radius: 1px;
+	font-size: 15px;
+}
+.edutbl
+{
+	font-size: 15px;
+}
+.qq-upload-button
+{
+	width: 100% !important;
+}
+input[type="checkbox"]
+{
+	margin: 4px 8px 0;
+}
+input[type="radio"]
+{
+	line-height: normal;
+	margin: 4px 4px 0;
+}
+.form-control.error {
+    border: 1px solid #f00;
+    height: 31px;
+}
+@media (max-width: 767px)
+{
+	.app-right-header
+	{
+		height: 60px;
+		padding: 4px;
+		line-height: 40px;
+	}
+
+	.logo
+	{
+		height: 50px;
+		margin: 0 5px 5px 0px;
+		width: 16%;
+		background-size: 100%;
+	}
+	.name
+	{
+		height: 30px;
+		margin: 10px 0 5px;
+		width: 68%;
+		background-size: 100%;
+	}
+	.right_logo
+	{
+		height: 50px;
+		margin: 0 0px 0 5px;
+		width: 12%;
+		background-size: 100%;
+	}
+	.content-title .main-title
+	{
+		font-size: 14px;
+	}
+	.footer
+	{
+		position: inherit;
+	}
+	.admissiontype label
+	{
+		font-size: 13px;
+	}
+	.padding-20
+	{
+		padding: 20px 10px 0;
+	}
+	label
+	{
+		font-size: 13px;
+	}
+}
